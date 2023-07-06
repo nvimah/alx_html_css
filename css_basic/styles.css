@@ -1,1 +1,30 @@
-
+body {
+      display: flex;
+      flex-direction:column ;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+h1{
+    text-align: center;
+    text-emphasis-color: black;
+    text-size-adjust: 24px;
+    background-color: aqua;
+}
+p{
+    text-align: justify;
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    
+}
